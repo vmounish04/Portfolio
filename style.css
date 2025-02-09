@@ -1,0 +1,141 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body
+{
+    font-family: "Poppins", serif;
+
+}
+
+.mou-nav
+{
+    position: sticky;
+    top:0;
+    background-color:#DCE4E6; 
+}
+
+.about-me
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 550px;
+    width:1300px;
+    margin: 0px auto;
+    background-color: #FDF4AE;
+    border-radius: 50px;
+    
+}
+.head>h1
+{
+    margin: 0;
+    width:600px;
+    text-align: center;
+    margin: 10px ;
+    color:#FF4841;
+    font-weight: bold;
+
+}
+
+.head
+{
+    height: 180px;
+    width:630px;
+    margin: 20px auto;
+    margin-right: 370px;
+
+}
+.about-me>.about-me-info>.data>p
+{
+    font-weight: 600;
+    color:gray;
+    font-size: 12px;
+
+}
+
+.about-me>.about-me-info>.data>h5
+{
+    width: 250px;
+    font-weight: 500;
+}
+
+.about-me>.about-me-info>.data
+{
+    margin: 50px ;
+}
+
+.about-me>.profile-img>img
+{
+    
+    object-fit: cover;
+    border: 3px solid #c4c1c1;
+    padding: 20px;
+    border-radius: 200px;
+    width: 550px;
+    height: 490px;
+
+}
+.about-me>.works>.info
+{
+    width: 80px;
+    height: 100px;
+    margin: 50px;
+}
+.about-me>.works>.info>p
+{
+    margin: 0;
+    font-weight: 600;
+    color:gray;
+    font-size: 12px;
+    text-align: end;
+
+}
+.about-me>.works>.info>h2
+{
+    text-align: end;
+    margin-top: 10px;
+}
+.icons
+{
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 45px;
+}
+
+@media(max-width:576px)
+{
+    .head
+    {
+        margin: 0;
+        height: 180px;
+        width:500px;
+    
+    }
+    .head>h1
+    {
+        margin: 0;
+        width:0;
+        margin: 17px;
+        width:300px;
+    }
+    .about-me
+    {
+        width: auto;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .about-me>.profile-img>img
+    {
+        width: 300px;
+        height:500px ;
+          
+    }
+    .icons>i
+    {
+        font-size: 25px;
+    }
+
+}
