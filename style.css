@@ -138,7 +138,22 @@ body
     object-fit: cover;
     margin-bottom: 10px;
 }
-
+/* .my-cards
+{
+    display: flex;
+    z-index: 10;
+} */
+.card
+{
+    margin-top: 20px;
+    margin-right: 5px;
+    border-radius: 20px;
+}
+.card>img
+{
+    height: 250px;
+    border-radius: 20px;
+}
 @media(max-width:576px)
 {
     .head
@@ -183,6 +198,16 @@ body
         margin-top: 10px;
         padding: 10px;
 
+    }
+    .my-cards>.card
+    {
+        width: 320px;
+        margin-top: 10px;
+    }
+    .my-cards
+    {   
+        display: flex;
+        flex-wrap: wrap;
     }
 
 }
