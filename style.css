@@ -145,7 +145,7 @@ body
     {
         margin: 0;
         height: 180px;
-        width:300px;
+        width:330px;
     
     }
     .head>h1
@@ -154,6 +154,10 @@ body
         width:0;
         margin: 17px;
         width:300px;
+    }
+    .about-me-info
+    {
+        width: 330px;
     }
     .about-me
     {
